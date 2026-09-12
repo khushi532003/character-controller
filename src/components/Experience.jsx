@@ -32,7 +32,7 @@ export const Experience = () => {
   const shadowCameraRef = useRef();
   const { map } = useControls("Map", {
     map: {
-      value: "castle_on_hills",
+      value: "de_dust_2_with_real_light",
       options: Object.keys(maps),
     },
   });
